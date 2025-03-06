@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/fonts.css" rel="stylesheet">
+  <link href="styles/media.css" rel="stylesheet">
+  <title>Landing Page</title>
+</head>
+<body>
+   
+  <header>
+    <div id="title">
+      <img src="./components/imagens/logo-projeto.png">
+    </div>
+      <ul class="menu">
+        <a href="#"><li class="menu2">Início</li></a>
+        <a href="#"><li class="menu2">Comunidade</li></a>
+        <a href="#"><li class="menu2">Notícias</li></a>
+        <a href="#"><li class="menu2">Wiki</li></a>
+      </ul>
+      <ul class="HCC">
+        <a href="#" id="inscreva-se-btn" ><li>Hiden Cliues Club</li></a>
+      </ul>
+      
+    <section class="md common-md"> <img src="components/gif/moeda4.gif"> </section>
+    <section class="md2 common-md"> <img src="components/gif/moeda4.gif"> </section>
+    <section class="md3 common-md"> <img src="components/gif/moeda4.gif"> </section>
+    <section class="md4 common-md"> <img src="components/gif/moeda4.gif"> </section>
+
+    <script>
+      const button = document.getElementById("inscreva-se-btn");
+      const commonMdElements = document.querySelectorAll(".common-md");
+    
+      button.addEventListener("mouseover", function() {
+        commonMdElements.forEach(element => {
+          element.style.transition = "opacity 0.7s";
+          element.style.opacity = 1;
+        });
+      });
+    
+      button.addEventListener("mouseout", function() {
+        commonMdElements.forEach(element => {
+          element.style.transition = "opacity 0.3s";
+          element.style.opacity = 0;
+        });
+      });
+    </script>
+    
+
+    <style>
+
+      header{
+      background-image: url("components/imagens/background-imagens/bg-header.png");
+      
+      
+      }
+  
+    </style>
+
+  </header>
+
+  <style>
+
+    body{
+    background-image: url("components/imagens/background-imagens/detetive9.png");
+    background-repeat: no-repeat;
+    background-position: 0 32px;
+    }
+
+  </style>
+  
+  <main id="body">
+    
+    <style>
+
+    </style>
+
+    <aside>
+      <h2>Você está apto</h2>
+      <h2><span>Para Resolver</span></h2>
+      <h2><span>Esse Enigma</span></h2>
+      <p>
+        Com sua aptidão comprovada, agora você tem a chance de resolver o enigma de Hiden Cliues, mas não espere que será tão fácil quanto antes; a partir de agora, o verdadeiro desafio se iniciará...
+      </p>
+      <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <input type="submit" value="Enviar >">
+      </form>
+    </aside>
+
+    <article>
+      <img class="logo" src="components/imagens/logo-projeto2.png" alt="logo">
+    </article>
+
+  </main>
+
+  <style>
+
+  </style>
+
+</body>
+</html>
