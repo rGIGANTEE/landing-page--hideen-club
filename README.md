@@ -1,6 +1,6 @@
-# Landing Page Hiden Clies
+# Landing Page Hidden Clies
 
-Este repositório contém o código-fonte de uma Landing Page desenvolvida para apresentar o projeto Hiden Clies com um design moderno e atraente. Trata se de uma forma de divulgação, onde os usuários interessados no gmae podem se cadastratar para terem acesso ao Beta do Game.
+Este repositório contém o código-fonte de uma Landing Page desenvolvida para apresentar o projeto Hiden Clies com um design moderno e atraente. Trata-se de uma forma de divulgação, onde os usuários interessados no game podem se cadastrar para terem acesso ao Beta do Game.
 
 ## Tecnologias Utilizadas
 - HTML
