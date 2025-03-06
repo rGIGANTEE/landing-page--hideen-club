@@ -1,0 +1,181 @@
+body{
+  color: #ffffff;
+  font-family: poppinsregular;
+  text-decoration: none;
+  margin: 0 auto;
+  max-width: 1950px;
+  background-position: 50% 32px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+  position: relative;
+}
+
+header img{
+  width: 152px;
+  margin-top: -40px;
+  padding-left: 1%;
+  position: relative;
+}
+
+#title{
+  flex-direction: column;
+  padding-left: 50px;
+  margin-right: 1100px;
+}
+
+.menu{
+  position: absolute;
+  align-self: center;
+  margin-right: 170px;
+  margin-top: 30px;
+}
+
+li{
+  margin: 15px;
+  display: inline-table;
+}
+
+.menu2{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a{
+  font-family: webfont;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.HCC{
+  position: absolute;
+  margin-left: 700px;
+  top: -10px;
+}
+
+.common-md {
+  position: absolute;
+  margin: 0 auto;
+  margin-left: 341px;
+  margin-top: 68px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.md2 {
+  margin-top: 24px; /* Ajuste a posição conforme necessário */
+  margin-right: 4px;
+}
+
+.md3 {
+  margin-left: 742px; /* Ajuste a posição conforme necessário */
+}
+
+.md4 {
+  margin-left: 742px; /* Ajuste a posição conforme necessário */
+  margin-top: 24px;
+}
+
+section img{
+  width: 45px;
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
+  transition: 0.3s all;
+  text-shadow: 0 0 35px white;
+}
+
+#inscreva-se-btn{
+  font-family: webfont;
+  font-size: 36px;
+  letter-spacing: 0px;
+}
+
+#body{
+  color: #ffffff;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  margin: 71px auto;
+  padding-bottom: 30px;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  border: 4px solid rgb(34, 55, 67);
+  border-radius: 1%;
+  background-image: url("../components/imagens/background-imagens/bg-main4.png");
+  background-repeat: no-repeat;
+  height: 53.5vh;
+  background-size: 100%;
+}
+
+h2{
+  font-size: 55px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+
+span{
+  letter-spacing: 3px
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinslight;
+  width: 83%;
+  font-weight: 900;
+}
+
+aside{
+  padding-left: 2%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: -16px;
+}
+
+form [type="submit"]{
+  height: 50px;
+  width: 50%;
+  background-color: rgb(34, 55, 67);
+  color: white;
+  font-weight: bold;
+}
+
+form [type="submit"]:hover{
+  cursor: pointer;
+}
+
+input{
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+article{
+  position: relative;
+  
+}
+
+article img{
+  width: 350px;
+  padding-top: 535px;
+  margin-left: -100px;
+  opacity: 100%;
+}
+  
